@@ -8,13 +8,13 @@ public class Main {
 
       Scanner scan = new Scanner(System.in);
       //System.in is the computers keyboard
-
-     // System.out.println("Enter some text.");
-      //String inputStr = scan.nextLine();
-      //System.out.println("Enter a whole number.");
-     // int inputInt = scan.nextInt();
-      //System.out.println("Enter a decmial number.");
-     // double inputDouble = scan.nextDouble();
+      /*
+      System.out.println("Enter some text.");
+      String inputStr = scan.nextLine();
+      System.out.println("Enter a whole number.");
+      int inputInt = scan.nextInt();
+      System.out.println("Enter a decmial number.");
+      double inputDouble = scan.nextDouble();
 
 
       // Handle the user input (do something with the values)
@@ -22,7 +22,7 @@ public class Main {
       System.out.println("You entered:  ");
       // Use values in an expression
      
-
+      */
       // STRING CLASS
       String message = new String("apcs is awesome");
       // new easier way
@@ -40,5 +40,19 @@ public class Main {
       System.out.println("12" + (4 + 3));//127
       System.out.println( 12 + 4 + 3 );//NOT concatanation, just addition
       System.out.println(("12") + 4 + 3);
+
+      // STRING METHODS
+      // .length() returns number of charecterts
+      int messageLength = message.length();
+      System.out.println("Length: " + messageLength);
+      // .length() - 1 represents final index
+      System.out.println("Final Index: " + (message.length()-1));
+      
+      //Use index to access charecter(s)
+      // .substring (int,int) return a String from first index to second index
+      // not including the charecter at the second int index
+      String firstWord = message.substring(0,4);
+      System.out.println(firstWord);
+
    }
 }
