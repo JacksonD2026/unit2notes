@@ -81,5 +81,34 @@ public class Main {
 
       System.out.println(a.compareTo(z));
       System.out.println(z.compareTo(a));
+
+      // MATH CLASS METHODS
+      // DO NOT NEED TO CONSTRUCT A MATH OBJECT TO USE
+
+      int absVal = Math.abs(-273);
+      System.out.println(absVal);
+
+      double absValDoub = Math.abs(2.5);
+      System.out.println(absValDoub);
+
+      // Math.pow(double, double) return the first double raised to the power of the second double
+
+      double cubed = Math.pow(38,3);
+      System.out.println(cubed); //53872.0
+
+      double squareRoot = Math.sqrt(49);
+      System.out.println(squareRoot);
+
+      double random = Math.random();
+      System.out.println(random);
+
+      double randomer = Math.random() * 100;
+      System.out.println(randomer);
+
+      double randomest = Math.random() * 100 + 1;
+      System.out.println(randomest);
+
+      int randInt = (int) (Math.random() * 10 + 1);
+      System.out.println(randInt);
    }
 }
